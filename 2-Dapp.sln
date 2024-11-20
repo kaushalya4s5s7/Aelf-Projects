@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-smart-contract", "1-smart-contract", "{647DD24F-AA6A-42FC-B8F8-E0E7816C499D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo", "1-smart-contract\src\ToDo.csproj", "{A34782B8-05CA-4CDA-BEAB-C8958A61231F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Tests", "1-smart-contract\test\ToDo.Tests.csproj", "{64687A95-BD8E-4A14-8EFC-C674FE7FF2BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A34782B8-05CA-4CDA-BEAB-C8958A61231F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34782B8-05CA-4CDA-BEAB-C8958A61231F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34782B8-05CA-4CDA-BEAB-C8958A61231F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34782B8-05CA-4CDA-BEAB-C8958A61231F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64687A95-BD8E-4A14-8EFC-C674FE7FF2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64687A95-BD8E-4A14-8EFC-C674FE7FF2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64687A95-BD8E-4A14-8EFC-C674FE7FF2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64687A95-BD8E-4A14-8EFC-C674FE7FF2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A34782B8-05CA-4CDA-BEAB-C8958A61231F} = {647DD24F-AA6A-42FC-B8F8-E0E7816C499D}
+		{64687A95-BD8E-4A14-8EFC-C674FE7FF2BB} = {647DD24F-AA6A-42FC-B8F8-E0E7816C499D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FACD0BC2-096A-418C-AD99-7BDFA415D0E7}
+	EndGlobalSection
+EndGlobal
